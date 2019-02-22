@@ -5,7 +5,7 @@ Instructable link for building your own:  [Instructable link](https://www.instru
 
 ##Credits
 * Based on the uCtrl project:  https://github.com/thomasjsn/Lync-presence-bridge
-* ...Which they based on the [renenulsch's](h ttps://github.com/renenulsch); project:  [Lync-Blink-Bridge](https://github.com/renenulsch/Lync-Blink-Bridge)
+* ...Which they based on the [renenulsch's](https://github.com/renenulsch); project:  [Lync-Blink-Bridge](https://github.com/renenulsch/Lync-Blink-Bridge)
 * Traffic lights icon by [Aha-Soft](http://www.aha-soft.com) (CC BY-NC-SA 3.0)
 
 ## Development Requirements
