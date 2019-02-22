@@ -1,0 +1,58 @@
+C:\Users\mf44288\Desktop\Skype_light\Lync-presence-bridge-master\LyncPresenceBridge\bin\Debug\LyncPresenceBridge.exe.config
+C:\Users\mf44288\Desktop\Skype_light\Lync-presence-bridge-master\LyncPresenceBridge\bin\Debug\LyncPresenceBridge.exe
+C:\Users\mf44288\Desktop\Skype_light\Lync-presence-bridge-master\LyncPresenceBridge\bin\Debug\LyncPresenceBridge.pdb
+C:\Users\mf44288\Desktop\Skype_light\Lync-presence-bridge-master\LyncPresenceBridge\bin\Debug\HidLibrary.dll
+C:\Users\mf44288\Desktop\Skype_light\Lync-presence-bridge-master\LyncPresenceBridge\bin\Debug\Microsoft.Lync.Model.dll
+C:\Users\mf44288\Desktop\Skype_light\Lync-presence-bridge-master\LyncPresenceBridge\bin\Debug\Microsoft.Office.Uc.dll
+C:\Users\mf44288\Desktop\Skype_light\Lync-presence-bridge-master\LyncPresenceBridge\bin\Debug\ThingM.Blink1.dll
+C:\Users\mf44288\Desktop\Skype_light\Lync-presence-bridge-master\LyncPresenceBridge\bin\Debug\Uctrl.Arduino.dll
+C:\Users\mf44288\Desktop\Skype_light\Lync-presence-bridge-master\LyncPresenceBridge\bin\Debug\Uctrl.Arduino.pdb
+C:\Users\mf44288\Desktop\Skype_light\Lync-presence-bridge-master\LyncPresenceBridge\bin\Debug\HidLibrary.pdb
+C:\Users\mf44288\Desktop\Skype_light\Lync-presence-bridge-master\LyncPresenceBridge\bin\Debug\Microsoft.Lync.Model.xml
+C:\Users\mf44288\Desktop\Skype_light\Lync-presence-bridge-master\LyncPresenceBridge\obj\Debug\LyncPresenceBridge.csprojResolveAssemblyReference.cache
+C:\Users\mf44288\Desktop\Skype_light\Lync-presence-bridge-master\LyncPresenceBridge\obj\Debug\LyncPresenceBridge.AboutForm.resources
+C:\Users\mf44288\Desktop\Skype_light\Lync-presence-bridge-master\LyncPresenceBridge\obj\Debug\LyncPresenceBridge.Properties.Resources.resources
+C:\Users\mf44288\Desktop\Skype_light\Lync-presence-bridge-master\LyncPresenceBridge\obj\Debug\LyncPresenceBridge.SettingsForm.resources
+C:\Users\mf44288\Desktop\Skype_light\Lync-presence-bridge-master\LyncPresenceBridge\obj\Debug\LyncPresenceBridge.csproj.GenerateResource.Cache
+C:\Users\mf44288\Desktop\Skype_light\Lync-presence-bridge-master\LyncPresenceBridge\obj\Debug\LyncPresenceBridge.exe
+C:\Users\mf44288\Desktop\Skype_light\Lync-presence-bridge-master\LyncPresenceBridge\obj\Debug\LyncPresenceBridge.pdb
+C:\Users\jthompson\Downloads\Skype-Status-Light-Bridge-master\Skype-Status-Light-Bridge-master\LyncPresenceBridge\bin\Debug\LyncPresenceBridge.exe.config
+C:\Users\jthompson\Downloads\Skype-Status-Light-Bridge-master\Skype-Status-Light-Bridge-master\LyncPresenceBridge\bin\Debug\LyncPresenceBridge.exe
+C:\Users\jthompson\Downloads\Skype-Status-Light-Bridge-master\Skype-Status-Light-Bridge-master\LyncPresenceBridge\bin\Debug\LyncPresenceBridge.pdb
+C:\Users\jthompson\Downloads\Skype-Status-Light-Bridge-master\Skype-Status-Light-Bridge-master\LyncPresenceBridge\bin\Debug\HidLibrary.dll
+C:\Users\jthompson\Downloads\Skype-Status-Light-Bridge-master\Skype-Status-Light-Bridge-master\LyncPresenceBridge\bin\Debug\Microsoft.Lync.Model.dll
+C:\Users\jthompson\Downloads\Skype-Status-Light-Bridge-master\Skype-Status-Light-Bridge-master\LyncPresenceBridge\bin\Debug\Microsoft.Office.Uc.dll
+C:\Users\jthompson\Downloads\Skype-Status-Light-Bridge-master\Skype-Status-Light-Bridge-master\LyncPresenceBridge\bin\Debug\ThingM.Blink1.dll
+C:\Users\jthompson\Downloads\Skype-Status-Light-Bridge-master\Skype-Status-Light-Bridge-master\LyncPresenceBridge\bin\Debug\Uctrl.Arduino.dll
+C:\Users\jthompson\Downloads\Skype-Status-Light-Bridge-master\Skype-Status-Light-Bridge-master\LyncPresenceBridge\bin\Debug\Uctrl.Arduino.pdb
+C:\Users\jthompson\Downloads\Skype-Status-Light-Bridge-master\Skype-Status-Light-Bridge-master\LyncPresenceBridge\bin\Debug\HidLibrary.pdb
+C:\Users\jthompson\Downloads\Skype-Status-Light-Bridge-master\Skype-Status-Light-Bridge-master\LyncPresenceBridge\bin\Debug\Microsoft.Lync.Model.xml
+C:\Users\jthompson\Downloads\Skype-Status-Light-Bridge-master\Skype-Status-Light-Bridge-master\LyncPresenceBridge\obj\Debug\LyncPresenceBridge.csprojAssemblyReference.cache
+C:\Users\jthompson\Downloads\Skype-Status-Light-Bridge-master\Skype-Status-Light-Bridge-master\LyncPresenceBridge\obj\Debug\LyncPresenceBridge.AboutForm.resources
+C:\Users\jthompson\Downloads\Skype-Status-Light-Bridge-master\Skype-Status-Light-Bridge-master\LyncPresenceBridge\obj\Debug\LyncPresenceBridge.Properties.Resources.resources
+C:\Users\jthompson\Downloads\Skype-Status-Light-Bridge-master\Skype-Status-Light-Bridge-master\LyncPresenceBridge\obj\Debug\LyncPresenceBridge.SettingsForm.resources
+C:\Users\jthompson\Downloads\Skype-Status-Light-Bridge-master\Skype-Status-Light-Bridge-master\LyncPresenceBridge\obj\Debug\LyncPresenceBridge.csproj.GenerateResource.cache
+C:\Users\jthompson\Downloads\Skype-Status-Light-Bridge-master\Skype-Status-Light-Bridge-master\LyncPresenceBridge\obj\Debug\LyncPresenceBridge.csproj.CoreCompileInputs.cache
+C:\Users\jthompson\Downloads\Skype-Status-Light-Bridge-master\Skype-Status-Light-Bridge-master\LyncPresenceBridge\obj\Debug\LyncPresenceBridge.csproj.CopyComplete
+C:\Users\jthompson\Downloads\Skype-Status-Light-Bridge-master\Skype-Status-Light-Bridge-master\LyncPresenceBridge\obj\Debug\LyncPresenceBridge.exe
+C:\Users\jthompson\Downloads\Skype-Status-Light-Bridge-master\Skype-Status-Light-Bridge-master\LyncPresenceBridge\obj\Debug\LyncPresenceBridge.pdb
+C:\Users\jthompson\Videos\SkypeStatusBridge JT Version\Visual Studio Solution\LyncPresenceBridge\bin\Debug\LyncPresenceBridge.exe.config
+C:\Users\jthompson\Videos\SkypeStatusBridge JT Version\Visual Studio Solution\LyncPresenceBridge\bin\Debug\LyncPresenceBridge.exe
+C:\Users\jthompson\Videos\SkypeStatusBridge JT Version\Visual Studio Solution\LyncPresenceBridge\bin\Debug\LyncPresenceBridge.pdb
+C:\Users\jthompson\Videos\SkypeStatusBridge JT Version\Visual Studio Solution\LyncPresenceBridge\bin\Debug\HidLibrary.dll
+C:\Users\jthompson\Videos\SkypeStatusBridge JT Version\Visual Studio Solution\LyncPresenceBridge\bin\Debug\Microsoft.Lync.Model.dll
+C:\Users\jthompson\Videos\SkypeStatusBridge JT Version\Visual Studio Solution\LyncPresenceBridge\bin\Debug\Microsoft.Office.Uc.dll
+C:\Users\jthompson\Videos\SkypeStatusBridge JT Version\Visual Studio Solution\LyncPresenceBridge\bin\Debug\ThingM.Blink1.dll
+C:\Users\jthompson\Videos\SkypeStatusBridge JT Version\Visual Studio Solution\LyncPresenceBridge\bin\Debug\Uctrl.Arduino.dll
+C:\Users\jthompson\Videos\SkypeStatusBridge JT Version\Visual Studio Solution\LyncPresenceBridge\bin\Debug\Uctrl.Arduino.pdb
+C:\Users\jthompson\Videos\SkypeStatusBridge JT Version\Visual Studio Solution\LyncPresenceBridge\bin\Debug\HidLibrary.pdb
+C:\Users\jthompson\Videos\SkypeStatusBridge JT Version\Visual Studio Solution\LyncPresenceBridge\bin\Debug\Microsoft.Lync.Model.xml
+C:\Users\jthompson\Videos\SkypeStatusBridge JT Version\Visual Studio Solution\LyncPresenceBridge\obj\Debug\LyncPresenceBridge.csprojAssemblyReference.cache
+C:\Users\jthompson\Videos\SkypeStatusBridge JT Version\Visual Studio Solution\LyncPresenceBridge\obj\Debug\LyncPresenceBridge.AboutForm.resources
+C:\Users\jthompson\Videos\SkypeStatusBridge JT Version\Visual Studio Solution\LyncPresenceBridge\obj\Debug\LyncPresenceBridge.Properties.Resources.resources
+C:\Users\jthompson\Videos\SkypeStatusBridge JT Version\Visual Studio Solution\LyncPresenceBridge\obj\Debug\LyncPresenceBridge.SettingsForm.resources
+C:\Users\jthompson\Videos\SkypeStatusBridge JT Version\Visual Studio Solution\LyncPresenceBridge\obj\Debug\LyncPresenceBridge.csproj.GenerateResource.cache
+C:\Users\jthompson\Videos\SkypeStatusBridge JT Version\Visual Studio Solution\LyncPresenceBridge\obj\Debug\LyncPresenceBridge.csproj.CoreCompileInputs.cache
+C:\Users\jthompson\Videos\SkypeStatusBridge JT Version\Visual Studio Solution\LyncPresenceBridge\obj\Debug\LyncPresenceBridge.csproj.CopyComplete
+C:\Users\jthompson\Videos\SkypeStatusBridge JT Version\Visual Studio Solution\LyncPresenceBridge\obj\Debug\LyncPresenceBridge.exe
+C:\Users\jthompson\Videos\SkypeStatusBridge JT Version\Visual Studio Solution\LyncPresenceBridge\obj\Debug\LyncPresenceBridge.pdb
