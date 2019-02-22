@@ -148,6 +148,31 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\united_states.png" />
+    <None Include="Resources\united-states.png" />
+    <None Include="Resources\icons8-settings-64.png" />
+    <None Include="Resources\rainbow.png" />
+    <None Include="Resources\blueCircle.png" />
+    <None Include="Resources\greenCircle.png" />
+    <None Include="Resources\redCircle.png" />
+    <None Include="Resources\blackCircle.png" />
+    <None Include="Resources\color-wheel.png" />
+    <None Include="Resources\fire.png" />
+    <None Include="Resources\color-wheel %281%29.png" />
+    <None Include="Resources\greenLittleCircle.png" />
+    <None Include="Resources\settings.svg" />
+    <None Include="Resources\settingsSmall.png" />
+    <None Include="Resources\settingsBlack.png" />
+    <None Include="Resources\settings16.png" />
+    <None Include="Resources\rgb.png" />
+    <None Include="Resources\about1.png" />
+    <None Include="Resources\color_wheel.png" />
+    <None Include="Resources\icons8_settings_64.png" />
+    <None Include="Resources\about2.png" />
+    <None Include="Resources\info-16.ico" />
+    <None Include="Resources\info-16.png" />
+    <None Include="Resources\settings-17-16.png" />
+    <None Include="Resources\instructables-logo%402x.png" />
     <Content Include="Resources\traffic lights.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

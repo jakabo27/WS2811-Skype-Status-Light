@@ -74,7 +74,7 @@ namespace Uctrl.Arduino
 
         public bool SetLEDs(byte[] colors)
         {
-            return Send(string.Join(",", colors));
+            return Send("RGB," + string.Join(",", colors));
         }
     }
 }

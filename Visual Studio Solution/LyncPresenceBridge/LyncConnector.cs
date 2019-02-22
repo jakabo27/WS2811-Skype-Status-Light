@@ -104,23 +104,33 @@ namespace LyncPresenceBridge
             trayIconContextMenu.SuspendLayout();
             trayIconContextMenu.Name = "TrayIconContextMenu";
 
+            //Custom Functions
+            this.trayIconContextMenu.Items.Add("Rainbow", Properties.Resources.rainbow, new EventHandler(RainbowMenuItem_Click));
+            this.trayIconContextMenu.Items.Add("America Pulse", Properties.Resources.united_states, new EventHandler(AmericaMenuItem_Click));
+            this.trayIconContextMenu.Items.Add("Color Wipe", null, new EventHandler(ColorWipeMenuItem_Click));
+            this.trayIconContextMenu.Items.Add("Cylon Bounce", null, new EventHandler(CylonBounceMenuItem_Click));
+            this.trayIconContextMenu.Items.Add("Fire", Properties.Resources.fire, new EventHandler(FireMenuItem_Click));
+            this.trayIconContextMenu.Items.Add("RGB Loop", Properties.Resources.rgb, new EventHandler(RGBLoopMenuItem_Click));
+            // Separation Line
+            this.trayIconContextMenu.Items.Add(new ToolStripSeparator());
+
             // Tray Context Menuitems to set color
-            this.trayIconContextMenu.Items.Add("Available", null, new EventHandler(AvailableMenuItem_Click));
-            this.trayIconContextMenu.Items.Add("Busy", null, new EventHandler(BusyMenuItem_Click));
-            this.trayIconContextMenu.Items.Add("Away", null, new EventHandler(AwayMenuItem_Click));
-            this.trayIconContextMenu.Items.Add("Off", null, new EventHandler(OffMenuItem_Click));
+            this.trayIconContextMenu.Items.Add("Available", Properties.Resources.greenCircle, new EventHandler(AvailableMenuItem_Click));
+            this.trayIconContextMenu.Items.Add("Busy", Properties.Resources.redCircle, new EventHandler(BusyMenuItem_Click));
+            this.trayIconContextMenu.Items.Add("Away", Properties.Resources.blueCircle, new EventHandler(AwayMenuItem_Click));
+            this.trayIconContextMenu.Items.Add("Off", Properties.Resources.blackCircle, new EventHandler(OffMenuItem_Click));
 
             // Separation Line
             this.trayIconContextMenu.Items.Add(new ToolStripSeparator());
 
             // About Form Line
-            this.trayIconContextMenu.Items.Add("About", null, new EventHandler(aboutMenuItem_Click));
+            this.trayIconContextMenu.Items.Add("About", Properties.Resources.info_16, new EventHandler(aboutMenuItem_Click));
 
             //Color dialog line
-            this.trayIconContextMenu.Items.Add("Select Color", null, new EventHandler(colorDiaglogMenuItem_Click));
+            this.trayIconContextMenu.Items.Add("Select Color", Properties.Resources.color_wheel, new EventHandler(colorDiaglogMenuItem_Click));
 
             // Settings Form Line
-            this.trayIconContextMenu.Items.Add("Settings", null, new EventHandler(settingsMenuItem_Click));
+            this.trayIconContextMenu.Items.Add("Settings", Properties.Resources.settings_17_16, new EventHandler(settingsMenuItem_Click));
 
             // Separation Line
             this.trayIconContextMenu.Items.Add(new ToolStripSeparator());
@@ -373,17 +383,13 @@ namespace LyncPresenceBridge
             // Keeps the user from selecting a custom color.
             MyDialog.AllowFullOpen = true;
             MyDialog.AnyColor = true;
-            // Allows the user to get help. (The default is false.)
             MyDialog.ShowHelp = false;
-            // Sets the initial color select to the current text color.
+            // Sets the initial color
             MyDialog.Color = Color.Aqua;
-            //MyDialog.SolidColorOnly = true;
 
-            // Update the text box color if the user clicks OK 
+            // Update if the user clicks OK 
             if (MyDialog.ShowDialog() == DialogResult.OK)
             {
-
-                // textBox1.ForeColor = MyDialog.Color;
                 Rgb thisCustomColor = new Rgb(MyDialog.Color.R, MyDialog.Color.G, MyDialog.Color.B);
                 byte[] thisCustomLEDs = { MyDialog.Color.R, MyDialog.Color.G, MyDialog.Color.B };
                 SetBlink1State(thisCustomColor);
@@ -393,8 +399,19 @@ namespace LyncPresenceBridge
 
         private void settingsMenuItem_Click(object sender, EventArgs e)
         {
+            if (arduino.Port.IsOpen)
+            {
+                arduino.Dispose();
+            }
             SettingsForm settings = new SettingsForm();
             settings.ShowDialog();
+
+            // Setup port
+            if (!arduino.OpenPort("COM" + Properties.Settings.Default.ArduinoSerialPort.ToString()))
+            {
+                trayIcon.ShowBalloonTip(1000, "Error", "Could not open and init serial port.", ToolTipIcon.Warning);
+            }
+
         }
 
         private void OffMenuItem_Click(object sender, EventArgs e)
@@ -419,6 +436,54 @@ namespace LyncPresenceBridge
         {
             SetBlink1State(colorAvailable);
             arduino.SetLEDs(ledsAvailableArduino);
+        }
+
+        private void RainbowMenuItem_Click(object sender, EventArgs e)
+        {
+            arduino.Send("CustomFunction,44");
+        }
+        private void AmericaMenuItem_Click(object sender, EventArgs e)
+        {
+            arduino.Send("CustomFunction,48");
+        }
+        private void ColorWipeMenuItem_Click(object sender, EventArgs e)
+        {
+            arduino.Send("CustomFunction,33");
+        }
+        private void CylonBounceMenuItem_Click(object sender, EventArgs e)
+        {
+            arduino.Send("CustomFunction,34");
+        }
+        private void FireMenuItem_Click(object sender, EventArgs e)
+        {
+            arduino.Send("CustomFunction,42");
+        }
+        private void RGBLoopMenuItem_Click(object sender, EventArgs e)
+        {
+            arduino.Send("CustomFunction,41");
+        }
+        private void TheaterChaseMenuItem_Click(object sender, EventArgs e)
+        {
+            arduino.Send("CustomFunction,37");
+        }
+
+
+
+        private void BrightnessMenuItem_Click(object sender, EventArgs e)
+        {
+            //Pop open brightness slider 
+
+            //get the value and set it ?
+            arduino.Send("CustomFunction,34");
+        }
+
+        /// <summary>
+        /// Send the arduino a brightness value
+        /// </summary>
+        /// <param name="targetBright"></param>
+        public void ArduinoSetBrightness(string targetBright)
+        {
+            arduino.Send("Brightness," + targetBright);
         }
 
         // Watch for USB changes to detect blink(1) removal
